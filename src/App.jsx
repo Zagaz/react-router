@@ -10,7 +10,6 @@ import Error from './Components/Error'
 import LoggedArea from './Components/LoggedArea';
 import { useState } from 'react';
 
-
 function App() {
   const [logged] = useState(true)
   return (
