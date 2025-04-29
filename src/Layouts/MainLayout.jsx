@@ -27,7 +27,6 @@ function MainLayout() {
           </footer>
         </div>
       </div>
-
     </>
   );
 }
