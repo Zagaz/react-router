@@ -16,6 +16,7 @@ function MainLayout() {
                   <Link className='btn btn-primary me-3 ' to="/"> <FaHome />  Home</Link>
                   <Link className='btn btn-primary me-3' to="/services"><MdCleaningServices />Services</Link>
                   <Link className='btn btn-primary' to="/contacts"><FaRegEnvelope />Contacts</Link>
+                  <Link className='btn btn-primary' to="/about"><FaRegEnvelope />About</Link>
                 </div>
               </div>
             </nav>
