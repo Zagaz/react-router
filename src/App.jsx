@@ -7,9 +7,12 @@ import Home from './Components/Home'
 import Services from './Components/Services'
 import About from './Components/About';
 import Error from './Components/Error'
+import LoggedArea from './Components/LoggedArea';
+import { useState } from 'react';
 
 
 function App() {
+  const [logged] = useState(true)
   return (
     <BrowserRouter>
       <Routes>
@@ -21,7 +24,13 @@ function App() {
           <Route path="services" element={<Services />} />
           <Route path="contacts" element={<Contacts />} />
           <Route path="about" element={<About />} />
-          <Route path="outro" element={<About /> }/>
+          
+          
+          <Route path="logged-area" element={
+            logged ? <LoggedArea /> : <Navigate to="/" />
+            } />
+          
+          
           <Route path="*" element={<Error />} />
         </Route>
       </Routes>

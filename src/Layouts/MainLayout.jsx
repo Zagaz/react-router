@@ -2,6 +2,7 @@ import { Outlet, Link } from 'react-router-dom';
 import { FaHome } from "react-icons/fa";
 import { MdCleaningServices } from "react-icons/md";
 import { FaRegEnvelope } from "react-icons/fa6";
+import { FaCircleExclamation } from "react-icons/fa6";
 
 function MainLayout() {
   return (
@@ -16,7 +17,7 @@ function MainLayout() {
                   <Link className='btn btn-primary me-3 ' to="/"> <FaHome />  Home</Link>
                   <Link className='btn btn-primary me-3' to="/services"><MdCleaningServices />Services</Link>
                   <Link className='btn btn-primary me-3' to="/contacts"><FaRegEnvelope />Contacts</Link>
-                  <Link className='btn btn-primary' to="/about"><FaRegEnvelope />About</Link>
+                  <Link className='btn btn-primary' to="/about"> <FaCircleExclamation /> About</Link>
                 </div>
               </div>
             </nav>

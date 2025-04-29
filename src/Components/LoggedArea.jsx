@@ -1,13 +1,12 @@
 import React from 'react'
-import { FaRegEnvelope } from "react-icons/fa6";
 
-const Contacts = () => {
+const LoggedArea = () => {
   return (
     <section className='container'>
     <div className="row mt-3 justify-content-center ">
       <div className="col-8 card text-center p-3 bg-light">
 
-    <h1><FaRegEnvelope />Contacts</h1>
+    <h1>Logged</h1>
       </div>
 
     </div>
@@ -15,4 +14,4 @@ const Contacts = () => {
   )
 }
 
-export default Contacts
+export default LoggedArea
