@@ -5,7 +5,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Contacts from './Components/Contacts'
 import Home from './Components/Home'
 import Services from './Components/Services'
+import About from './Components/About';
 import Error from './Components/Error'
+
 
 function App() {
   return (
@@ -18,6 +20,7 @@ function App() {
           <Route path="home" element={<Home />} />
           <Route path="services" element={<Services />} />
           <Route path="contacts" element={<Contacts />} />
+          <Route path="about" element={<About />} />
           <Route path="*" element={<Error />} />
         </Route>
       </Routes>
