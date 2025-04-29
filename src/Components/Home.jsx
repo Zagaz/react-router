@@ -1,6 +1,7 @@
 import React from 'react'
 import { useNavigate } from "react-router";
 import { FaHome } from "react-icons/fa";
+
 const Home = () => {
   let navigate = useNavigate();
   return (
