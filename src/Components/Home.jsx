@@ -9,15 +9,7 @@ const Home = () => {
         <div className="col-8 card text-center p-3 bg-light">
           <h1><FaHome /> Home</h1>
         </div>
-        <button
-        onClick={()=>{
-          navigate('/services')
-        }}
-        >
-          Services
-
-        </button>
-       
+        <button onClick={() => { navigate("/services") }} > Services </button>
       </div>
     </section>
   )
